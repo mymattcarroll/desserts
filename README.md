@@ -47,9 +47,9 @@ db.find(attr: String, what: RegExp)
 
 3.  Now, if a given url is in the `test.com` domain, also print the results to `stdout`. Eg:
 
-    * `http://site1.com/path` - save to db only
-    * `http://site2.com/path` - save to db only
-    * `http://test.com/path` - save to db and print
+    *   `http://site1.com/path` - save to db only
+    *   `http://site2.com/path` - save to db only
+    *   `http://test.com/path` - save to db and print
 
 4.  Write a function that will find all urls in the database that tried to set a cookie when requested. Eg: back to the `carsObject` example, if we had to find all cars that are not `awd` we could do:
 
