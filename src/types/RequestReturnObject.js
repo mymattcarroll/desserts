@@ -18,3 +18,10 @@ declare type RequestReturnObject = {
   isGlutenFree: boolean,
   numberOfIngredients: number
 }
+
+declare type RequestReturnObjectProperty =
+  | 'id'
+  | 'type'
+  | 'name'
+  | 'isGlutenFree'
+  | 'numberOfIngredients'

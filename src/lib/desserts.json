@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "type": "COOKIE",
+    "name": "Choc-Chip Cookie",
+    "isGlutenFree": false,
+    "numberOfIngredients": 5
+  },
+  {
+    "id": 2,
+    "type": "COOKIE",
+    "name": "White Choc-Chip Cookie",
+    "isGlutenFree": false,
+    "numberOfIngredients": 5
+  },
+  {
+    "id": 3,
+    "type": "COOKIE",
+    "name": "Anzac Cookie",
+    "isGlutenFree": false,
+    "numberOfIngredients": 6
+  },
+  {
+    "id": 4,
+    "type": "COOKIE",
+    "name": "Chocolate Cookie",
+    "isGlutenFree": false,
+    "numberOfIngredients": 3
+  },
+  {
+    "id": 5,
+    "type": "ICE_CREAM",
+    "name": "Vanilla Ice Cream",
+    "isGlutenFree": false,
+    "numberOfIngredients": 4
+  },
+  {
+    "id": 6,
+    "type": "ICE_CREAM",
+    "name": "Chocolate Ice Cream",
+    "isGlutenFree": false,
+    "numberOfIngredients": 3
+  },
+  {
+    "id": 7,
+    "type": "ICE_CREAM",
+    "name": "Rainbow Ice Cream",
+    "isGlutenFree": false,
+    "numberOfIngredients": 5
+  },
+  {
+    "id": 8,
+    "type": "ICE_CREAM",
+    "name": "Strawberry Ice Cream",
+    "isGlutenFree": false,
+    "numberOfIngredients": 4
+  },
+  {
+    "id": 9,
+    "type": "CAKE",
+    "name": "Blueberry Muffin",
+    "isGlutenFree": false,
+    "numberOfIngredients": 6
+  },
+  {
+    "id": 10,
+    "type": "CAKE",
+    "name": "Banana Cake",
+    "isGlutenFree": true,
+    "numberOfIngredients": 4
+  },
+  {
+    "id": 11,
+    "type": "CAKE",
+    "name": "Cheese Cake",
+    "isGlutenFree": true,
+    "numberOfIngredients": 8
+  },
+  {
+    "id": 12,
+    "type": "CAKE",
+    "name": "Donut Cake",
+    "isGlutenFree": false,
+    "numberOfIngredients": 2
+  }
+]
