@@ -10,7 +10,9 @@
     "Matt Carroll <matt.carroll139@gmail.com> (https://github.com/mymattcarroll)"
   ],
   "dependencies": {
+    "bootstrap": "3.3.7",
     "react": "16.4.1",
+    "react-bootstrap": "0.32.1",
     "react-dom": "16.4.1",
     "react-scripts": "1.1.4"
   },
@@ -47,7 +49,7 @@
     "flow_check": "flow check",
     "lint-md": "remark . --use remark-preset-lint-recommended",
     "pretest": "npm run eslint && npm run flow_check && npm run fixpack && npm run lint-md",
-    "prettier": "prettier --write './src/**/*.{js,jsx,json}'",
+    "prettier": "prettier --write './src/**/*.{js,jsx}'",
     "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom"
   }
