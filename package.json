@@ -1,0 +1,62 @@
+{
+  "name": "url-store",
+  "description": "Qantas Challenge ",
+  "version": "0.0.0",
+  "author": "Matt Carroll <matt.carroll139@gmail.com> (https://github.com/mymattcarroll)",
+  "bugs": {
+    "url": "https://github.com/mymattcarroll/url-store/issues"
+  },
+  "contributors": [
+    "Matt Carroll <matt.carroll139@gmail.com> (https://github.com/mymattcarroll)"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "fixpack": "^2.3.1",
+    "flow-bin": "^0.76.0",
+    "jest": "^23.4.1",
+    "remark-cli": "^5.0.0",
+    "remark-lint": "^6.0.2",
+    "remark-preset-lint-recommended": "^3.0.2"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
+  },
+  "homepage": "https://github.com/mymattcarroll/url-store",
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true,
+    "coverageThreshold": {
+      "global": {
+        "lines": 75
+      }
+    }
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mymattcarroll/url-store.git"
+  },
+  "scripts": {
+    "eslint": "eslint --fix --cache .",
+    "fixpack": "fixpack",
+    "flow_check": "flow check",
+    "jest": "jest",
+    "lint-md": "remark . --use remark-preset-lint-recommended",
+    "pretest": "npm run eslint && npm run flow_check && npm run fixpack && npm run lint-md",
+    "test": "npm run jest"
+  }
+}
