@@ -13,6 +13,10 @@ type Props = {
 }
 
 function DessertsTable({ desserts }: Props) {
+  if (!desserts.length) {
+    return null
+  }
+
   return (
     <Table responsive striped>
       <thead>

@@ -12,7 +12,7 @@ type State = {
 
 class App extends React.Component<{}, State> {
   state = {
-    desserts: db.get()
+    desserts: []
   }
 
   handleSearchChange = (search: string) => {

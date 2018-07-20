@@ -6,22 +6,35 @@
 //
 
 import * as React from 'react'
-import { FormGroup, FormControl } from 'react-bootstrap'
+import {
+  ControlLabel,
+  FormControl,
+  FormGroup,
+  HelpBlock
+} from 'react-bootstrap'
+
+import withValidation from './withValidation.js'
 
 type Props = {
-  onChange: (string) => void
+  onChange: string => void,
+  validationState: 'error' | 'warning' | 'success' | null
 }
 
-function DessertsSearch({ onChange }: Props) {
+function DessertsSearch({ onChange, validationState }: Props) {
   return (
-    <FormGroup controlId="dessertsSearch">
+    <FormGroup controlId="dessertsSearch" validationState={validationState}>
+      <ControlLabel>Enter search below to display desserts</ControlLabel>
       <FormControl
         type="text"
         placeholder="Search for desserts based on Name"
         onChange={e => onChange(e.target.value)}
       />
+      <FormControl.Feedback />
+      {validationState === 'warning' || validationState === 'error' ? (
+        <HelpBlock>Please enter more characters.</HelpBlock>
+      ) : null}
     </FormGroup>
   )
 }
 
-export default DessertsSearch
+export default withValidation(DessertsSearch)
