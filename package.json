@@ -1,10 +1,10 @@
 {
-  "name": "url-store",
+  "name": "desserts",
   "description": "Qantas Challenge ",
   "version": "0.0.0",
   "author": "Matt Carroll <matt.carroll139@gmail.com> (https://github.com/mymattcarroll)",
   "bugs": {
-    "url": "https://github.com/mymattcarroll/url-store/issues"
+    "url": "https://github.com/mymattcarroll/desserts/issues"
   },
   "contributors": [
     "Matt Carroll <matt.carroll139@gmail.com> (https://github.com/mymattcarroll)"
@@ -32,14 +32,14 @@
     "node": ">=10",
     "npm": ">=6"
   },
-  "homepage": "https://github.com/mymattcarroll/url-store",
+  "homepage": "https://github.com/mymattcarroll/desserts",
   "keywords": [],
   "license": "ISC",
   "main": "index.js",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mymattcarroll/url-store.git"
+    "url": "git+https://github.com/mymattcarroll/desserts.git"
   },
   "scripts": {
     "build": "react-scripts build",

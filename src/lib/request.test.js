@@ -3,7 +3,7 @@
 import * as request from './request.js'
 
 describe('get()', () => {
-  it('should return a valid url', () => {
+  it('should return a valid dessert', () => {
     const href = 'http://desserts.com/cookies/1'
     const chocChipCookie = request.get(href)
     expect(chocChipCookie).toEqual({
